@@ -1,0 +1,55 @@
+#mainbanner .swiper-slide {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    border-radius: 30px;
+}
+
+#mainbanner .swiper-slide::before {
+    content: "";
+    display: block;
+    height: 0;
+    padding-top: 52%;
+}
+
+.bg1 {
+    background-image: url(../img/bg/01.jpg);
+}
+.bg2 {
+    background-image: url(../img/bg/02.jpg);
+}
+.bg3 {
+    background-image: url(../img/bg/03.jpg);
+}
+.bg4 {
+    background-image: url(../img/bg/04.jpg);
+}
+.bg5 {
+    background-image: url(../img/bg/05.jpg);
+}
+.bg6 {
+    background-image: url(../img/bg/06.jpg);
+}
+.bg7 {
+    background-image: url(../img/bg/07.jpg);
+}
+.bg8 {
+    background-image: url(../img/bg/08.jpg);
+}
+
+.pagebox .swiper-pagination {
+    position: unset;
+    background-color: rgb(105, 104, 104);
+    color: white;
+    width: 160px;
+    height: 40px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.pagebox {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
